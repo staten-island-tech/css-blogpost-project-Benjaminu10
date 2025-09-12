@@ -1,43 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;700&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Padauk:wght@400;700&display=swap');
+
 body,*{
+    font-family: "Enriqueta", "Nunito Sans", "Padauk";
     font-size: 10px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
+    color: wheat;
 }
 
 p,*{
+    font-family: "Padauk";
     font-size: 25px;
     padding: 15px;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
 }
 
 h1, * {
+  font-family: "Enriqueta";
     font-size: 90px;
     padding: 0px 100px;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    color: white;
+
 
 }
 
 h2, * {
+  font-family: "Enriqueta";
   font-size: 50px;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-align: center;
-  color: white;
+
 }
 
-.centered-img {
+.post-img {
   display: block;
-  width: 70vw;
+  width: 50vw;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -45,10 +50,10 @@ h2, * {
 }
 
 .background--custom {
-      background: repeating-linear-gradient(90deg, #E050F1, #e1e6c6, #f5a2a1);
+      background: repeating-linear-gradient(90deg, #70194a, #d14578, #ea669b, #f7b1e8, hsl(320, 67%, 82%));
       background-size: 300% 300%;
-      background-attachment: scroll;
-      min-height: 99999vh;
+      background-attachment: fixed;
+
 
       animation: gradient 6s alternate infinite;
       position: absolute;
@@ -69,3 +74,5 @@ h2, * {
         background-position: 0% 50%;
       }
     }
+
+

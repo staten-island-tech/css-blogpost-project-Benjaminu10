@@ -1,16 +1,55 @@
 body,*{
-    font-size: 100px;
-    padding: 250px;
+    font-size: 10px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
     color: white;
-    background-color: wheat;
+}
+
+p,*{
+    font-size: 25px;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+h1, * {
+    font-size: 90px;
+    padding: 0px 100px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+
+}
+
+h2, * {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+.centered-img {
+  display: block;
+  width: 70vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px 0px 20px;
 }
 
 .background--custom {
-      background: linear-gradient(90deg, #E050F1, #7890E7, #f5a2a1);
+      background: repeating-linear-gradient(90deg, #E050F1, #e1e6c6, #f5a2a1);
       background-size: 300% 300%;
+      background-attachment: scroll;
+      min-height: 99999vh;
+
       animation: gradient 6s alternate infinite;
       position: absolute;
       top: 0;
@@ -21,9 +60,12 @@ body,*{
     }
     @keyframes gradient {
       0% {
-        background-position: 0%;
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
       }
       100% {
-        background-position: 100%;
+        background-position: 0% 50%;
       }
     }

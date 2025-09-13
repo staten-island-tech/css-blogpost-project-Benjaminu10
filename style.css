@@ -8,13 +8,22 @@ body,*{
     box-sizing: border-box;
     text-align: center;
     color: wheat;
+
+}
+
+#gpt {
+  display: block;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  height: 75px;
 }
 
 p,*{
     font-family: "Padauk";
     font-size: 25px;
-    padding: 15px;
-    margin: 0;
+    padding: 0;
+    margin: 15px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -22,8 +31,8 @@ p,*{
 h1, * {
   font-family: "Enriqueta";
     font-size: 90px;
-    padding: 0px 100px;
-    margin: 0;
+    padding: 0;
+    margin: 0px 100px;
     box-sizing: border-box;
     text-align: center;
 
@@ -31,7 +40,7 @@ h1, * {
 }
 
 h2, * {
-  font-family: "Enriqueta";
+  font-family: "Nunito Sans";
   font-size: 50px;
   padding: 0;
   margin: 0;

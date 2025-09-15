@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;700&family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Padauk:wght@400;700&display=swap');
 
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 body,*{
-    font-family: "Enriqueta", "Nunito Sans", "Padauk";
     font-size: 10px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    color: wheat;
+    color: rgb(81, 153, 81);
 
 }
 
@@ -19,8 +26,15 @@ body,*{
   height: 75px;
 }
 
+.post-container {
+  margin: 200px;
+  margin-top: 10px;
+  padding: 30px;
+  background-color: beige;
+}
+
 p,*{
-    font-family: "Padauk";
+    font-family: "Style Script", cursive;
     font-size: 25px;
     padding: 0;
     margin: 15px;
@@ -29,14 +43,12 @@ p,*{
 }
 
 h1, * {
-  font-family: "Enriqueta";
+    font-family: "Enriqueta";
     font-size: 90px;
     padding: 0;
     margin: 0px 100px;
     box-sizing: border-box;
     text-align: center;
-
-
 }
 
 h2, * {
